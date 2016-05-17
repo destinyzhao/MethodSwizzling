@@ -36,5 +36,10 @@
     }
 }
 
+- (void)insertNullObject:(id)anObject atIndex:(NSUInteger)index{
+    if (anObject) {
+        [self insertNullObject:anObject atIndex:index];
+    }
+}
 
 @end

@@ -30,7 +30,7 @@
         [array addObject:nil];
     }
     NSLog(@"array is :%@",array);
-    
+
     // 利用Method Swizzling 设置NSMutableDictionary object 为nil时候程序不会崩溃
     NSMutableDictionary *mutableDic = [NSMutableDictionary dictionary];
     [mutableDic setObject:nil forKey:@"key"];
