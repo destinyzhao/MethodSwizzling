@@ -19,6 +19,8 @@
 		FABE333E1C74786500CB31F5 /* NSMutableArray+AddNullObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE333D1C74786500CB31F5 /* NSMutableArray+AddNullObject.m */; };
 		FABE33411C747A1900CB31F5 /* NSMutableDictionary+SetNullObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE33401C747A1900CB31F5 /* NSMutableDictionary+SetNullObject.m */; };
 		FABE33441C74801B00CB31F5 /* MethodSwizzlingWithClassAndSel.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE33431C74801B00CB31F5 /* MethodSwizzlingWithClassAndSel.m */; };
+		FAF9CF351D0D0AAD00737043 /* NSMutableArray+AtIndexCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF9CF341D0D0AAD00737043 /* NSMutableArray+AtIndexCrash.m */; };
+		FAF9CF381D0D0B1C00737043 /* NSArray+AtIndexCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF9CF371D0D0B1C00737043 /* NSArray+AtIndexCrash.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,10 @@
 		FABE33401C747A1900CB31F5 /* NSMutableDictionary+SetNullObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+SetNullObject.m"; sourceTree = "<group>"; };
 		FABE33421C74801B00CB31F5 /* MethodSwizzlingWithClassAndSel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodSwizzlingWithClassAndSel.h; sourceTree = "<group>"; };
 		FABE33431C74801B00CB31F5 /* MethodSwizzlingWithClassAndSel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodSwizzlingWithClassAndSel.m; sourceTree = "<group>"; };
+		FAF9CF331D0D0AAD00737043 /* NSMutableArray+AtIndexCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+AtIndexCrash.h"; sourceTree = "<group>"; };
+		FAF9CF341D0D0AAD00737043 /* NSMutableArray+AtIndexCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+AtIndexCrash.m"; sourceTree = "<group>"; };
+		FAF9CF361D0D0B1C00737043 /* NSArray+AtIndexCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+AtIndexCrash.h"; sourceTree = "<group>"; };
+		FAF9CF371D0D0B1C00737043 /* NSArray+AtIndexCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+AtIndexCrash.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +136,10 @@
 				FABE33401C747A1900CB31F5 /* NSMutableDictionary+SetNullObject.m */,
 				FABE33421C74801B00CB31F5 /* MethodSwizzlingWithClassAndSel.h */,
 				FABE33431C74801B00CB31F5 /* MethodSwizzlingWithClassAndSel.m */,
+				FAF9CF331D0D0AAD00737043 /* NSMutableArray+AtIndexCrash.h */,
+				FAF9CF341D0D0AAD00737043 /* NSMutableArray+AtIndexCrash.m */,
+				FAF9CF361D0D0B1C00737043 /* NSArray+AtIndexCrash.h */,
+				FAF9CF371D0D0B1C00737043 /* NSArray+AtIndexCrash.m */,
 			);
 			path = MethodSwizzling;
 			sourceTree = "<group>";
@@ -292,6 +302,8 @@
 			files = (
 				FABE33441C74801B00CB31F5 /* MethodSwizzlingWithClassAndSel.m in Sources */,
 				FABE33411C747A1900CB31F5 /* NSMutableDictionary+SetNullObject.m in Sources */,
+				FAF9CF381D0D0B1C00737043 /* NSArray+AtIndexCrash.m in Sources */,
+				FAF9CF351D0D0AAD00737043 /* NSMutableArray+AtIndexCrash.m in Sources */,
 				FA0BA4501C7456DB002D3D70 /* UIViewController+Tracking.m in Sources */,
 				FA0BA4201C74528D002D3D70 /* ViewController.m in Sources */,
 				FA0BA41D1C74528D002D3D70 /* AppDelegate.m in Sources */,

@@ -24,17 +24,23 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    // 利用Method Swizzling NSMutableArray addObject 为nil时候程序不会崩溃
-    NSMutableArray *array = [NSMutableArray array];
-    for (NSInteger i=0; i < 9; i++) {
-        [array addObject:nil];
-    }
-    NSLog(@"array is :%@",array);
-
-    // 利用Method Swizzling 设置NSMutableDictionary object 为nil时候程序不会崩溃
-    NSMutableDictionary *mutableDic = [NSMutableDictionary dictionary];
-    [mutableDic setObject:nil forKey:@"key"];
-    NSLog(@"mutableDic is :%@",mutableDic);
+//    // 利用Method Swizzling NSMutableArray addObject 为nil时候程序不会崩溃
+//    NSMutableArray *array = [NSMutableArray array];
+//    for (NSInteger i=0; i < 9; i++) {
+//        [array addObject:nil];
+//    }
+//    NSLog(@"array is :%@",array);
+//
+//    // 利用Method Swizzling 设置NSMutableDictionary object 为nil时候程序不会崩溃
+//    NSMutableDictionary *mutableDic = [NSMutableDictionary dictionary];
+//    [mutableDic setObject:nil forKey:@"key"];
+//    NSLog(@"mutableDic is :%@",mutableDic);
+    
+    NSArray *testArray = @[@"0", @"1", @"2", @"3", @"4", @"5", @"6", @"7"];
+    
+    
+    // 结果
+    NSLog(@"%@", [testArray objectAtIndex:8]);
     
 }
 
